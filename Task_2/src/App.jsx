@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Category from './components/Category'
+import TopSeiling from './components/TopSeiling'
 
 function App() {
 
-
   return (
-    <h1 className="text-3xl font-bold underline text-red-600">Hello World</h1>
+    <div>
+      <Navbar />
+      <Home />
+      <Category />
+      <TopSeiling />
+    </div>
   )
 }
 
