@@ -11,7 +11,6 @@ function Category() {
             description: "Built Wicket longer admire do barton vanity itself do in it.",
             image: img1,
         },
-        
         {
             id: 3,
             title: "Local Events",
@@ -27,32 +26,40 @@ function Category() {
     ]
 
     return (
-        <div className="">
-            <div className='flex justify-center items-center my- mt-24 font-medium text-[#5E6282]'>
-                <h1>CATEGORY</h1>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div className='text-center mb-4'>
+                <h1 className='text-lg font-medium text-[#5E6282] uppercase tracking-wider'>CATEGORY</h1>
             </div>
-            <div>
-                <h1 className="text-5xl font-bold text-center my-8 text-blue-950">We Offer Best Services</h1>
+            <div className='text-center mb-12'>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-blue-950">We Offer Best Services</h1>
             </div>
-            <div className='font-medium text-[#5E6282]'>
-                <div className='bg-white p-8 m-8 flex justify-evenly items-center'>
-                    {categories.map((category) => (
-                        <div 
-                            key={category.id} 
-                            className="mx-8 flex flex-col items-center p-6 transition-all duration-300 ease-in-out hover:rounded-xl hover:shadow-xl hover:shadow-gray-400 hover:translate-y-1"
-                        >
-                            <div>
-                                <img src={category.image} alt={category.title} className="w-16 h-16" />
-                            </div>
-                            <div className='p-4 font-medium text-[#5E6282]'>
-                                <h2 className="text-lg font-semibold">{category.title}</h2>
-                            </div>
-                            <div className='p-4'>
-                                <p className='px-6 text-[#5E6282] text-center'>{category.description}</p>
-                            </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+                {categories.map((category) => (
+                    <div 
+                        key={category.id} 
+                        className="bg-white p-6 rounded-lg flex flex-col items-center transition-all duration-300 ease-in-out 
+                                   hover:shadow-xl hover:shadow-gray-200 hover:-translate-y-2 hover:border hover:border-amber-100
+                                   group cursor-pointer"
+                    >
+                        <div className='mb-6 p-4 bg-amber-50 rounded-full group-hover:bg-amber-100 transition-colors duration-300'>
+                            <img 
+                                src={category.image} 
+                                alt={category.title} 
+                                className="w-16 h-16 object-contain group-hover:scale-110 transition-transform duration-300" 
+                            />
                         </div>
-                    ))}
-                </div>
+                        <div className='text-center mb-4'>
+                            <h2 className="text-xl font-bold text-gray-800 group-hover:text-amber-500 transition-colors duration-300">
+                                {category.title}
+                            </h2>
+                        </div>
+                        <div className='text-center'>
+                            <p className='text-[#5E6282] text-sm md:text-base leading-relaxed'>
+                                {category.description}
+                            </p>
+                        </div>
+                    </div>
+                ))}
             </div>
         </div>
     )

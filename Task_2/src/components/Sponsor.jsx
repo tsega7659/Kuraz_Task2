@@ -8,12 +8,12 @@ function Sponsor() {
   return (
     <div>
         
-        <div className="flex justify-evenly">
-            <img src={image2} alt="Sponsor 1" className="object-contain hover:shadow-2xl" />
-            <img src={image3} alt="Sponsor 2" className="object-contain hover:shadow-2xl" />
-            <img src={image4} alt="Sponsor 3" className="object-contain hover:shadow-2xl" />
-            <img src={image5} alt="Sponsor 4" className="object-contain hover:shadow-2xl" />
-            <img src={image6} alt="Sponsor 5" className="object-contain hover:shadow-2xl" />
+        <div className="lg:flex justify-evenly">
+            <img src={image2} alt="Sponsor 1" className="object-contain hover:shad" />
+            <img src={image3} alt="Sponsor 2" className="object-contain hover:shad" />
+            <img src={image4} alt="Sponsor 3" className="object-contain hover:shad" />
+            <img src={image5} alt="Sponsor 4" className="object-contain hover:shad" />
+            <img src={image6} alt="Sponsor 5" className="object-contain hover:shad" />
         </div>
     </div>
   )
