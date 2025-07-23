@@ -4,6 +4,10 @@ import Home from './components/Home'
 import Category from './components/Category'
 import TopSeiling from './components/TopSeiling'
 import EasyFast from './components/EasyFast'
+import Testimonials from './components/Testimonial'
+import Sponsor from './components/Sponsor'
+import SubscribeSection from './components/SubscribeSection'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -14,6 +18,10 @@ function App() {
       <Category />
       <TopSeiling />
       <EasyFast />
+      <Testimonials />
+      <Sponsor />
+      <SubscribeSection />
+      <Footer />
     </div>
   )
 }
