@@ -52,7 +52,7 @@ function Navbar() {
               onClick={toggleMenu}
               className='text-gray-700 hover:text-amber-300 focus:outline-none transition-colors duration-300'
             >
-              {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+              {isMenuOpen ? <FaTimes size={24} className='text-amber-400'/> : <FaBars size={24} className='text-amber-400' />}
             </button>
           </div>
         </div>

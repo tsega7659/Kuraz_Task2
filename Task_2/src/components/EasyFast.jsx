@@ -52,7 +52,7 @@ function EasyFast() {
               alt="Trip to Greece" 
               className="w-full h-auto rounded-2xl object-cover shadow-xl transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]" 
             />
-            <div className="absolute -bottom-6 -right-6 sm:-bottom-8 sm:-right-8 bg-white p-4 sm:p-6 rounded-xl shadow-lg max-w-xs transition-all duration-500 hover:shadow-xl hover:-translate-y-2">
+            <div className="absolute  -bottom-6 lg:-right-6 sm:-bottom-8 sm:-right-8 bg-white p-4 sm:p-6 rounded-xl shadow-lg max-w-xs transition-all duration-500 hover:shadow-xl hover:-translate-y-2">
               <div className="flex items-center gap-3">
                 <img src={rome} alt="Trip to Rome" className="w-12 h-12 sm:w-16 sm:h-16 rounded-lg object-cover" />
                 <div>

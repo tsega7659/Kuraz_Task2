@@ -8,7 +8,7 @@ function Sponsor() {
   return (
     <div>
         
-        <div className="lg:flex justify-evenly">
+        <div className="lg:flex justify-evenly px-7">
             <img src={image2} alt="Sponsor 1" className="object-contain hover:shad" />
             <img src={image3} alt="Sponsor 2" className="object-contain hover:shad" />
             <img src={image4} alt="Sponsor 3" className="object-contain hover:shad" />

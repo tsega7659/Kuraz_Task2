@@ -43,17 +43,17 @@ const Footer = () => {
 
             <div>
               <h3 className="text-lg font-semibold mb-4">Discover our app</h3>
-              <div className="flex space-x-2">
-                <button className="bg-black text-white px-3 py-2 rounded-lg flex items-center">
+              <div className="lg:flex space-x-2 ">
+                <button className="bg-black text-white px-3 py-1 my-2 rounded-lg flex items-center">
                     <div className="flex items-center">
                         <FaGooglePay className="text-white text-lg" />
                         <span className="ml-2">Download</span>
                     </div>
                 </button>
-                <button className="bg-black text-white px-3 py-2 rounded-lg flex items-center">
+                <button className="bg-black text-white px-3 py-1  rounded-lg flex items-center">
                   <div className="flex items-center">
                     <FaGooglePay className="text-white text-lg" />
-                    <span className="ml-2">Google Pay</span>
+                    <span className="ml-2">Google</span>
                   </div>
                 </button>
               </div>
