@@ -1,12 +1,13 @@
-# React + Vite
+# This is my Task 2 at Kuraz as an intern for front-end development. I have used React.js with Tailwind CSS to build the exact UI of the given Figma Design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Some Images from the Design
+ <img src='./src/assets/window1.jpg'>
+ <img src='./src/assets/window2.jpg'>
+ <img src='./src/assets/window2.jpg'>
+ <img src='./src/assets/mobile1.jpg'>
+ <img src='./src/assets/mobile2.jpg'>
+ <img src='./src/assets/mobile3.jpg'>
+ <img src='./src/assets/mobile4.jpg'>
 
-Currently, two official plugins are available:
+ 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
